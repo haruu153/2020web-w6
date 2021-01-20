@@ -25,8 +25,10 @@
     }
     .中吉 {
       transform: scale(0.9);
+    }
     .小吉 {
       transform: scale(0.9);
+    }
     .凶 {
       transform: scale(0.9);
     }
@@ -48,10 +50,10 @@
         if (i === 大吉) {
           div.textContent = '大吉!';
           div.classList.add('大吉');
-            if (i === 2) {
+           } if (i === 2) {
           div.textContent = '中吉!';
           div.classList.add('中吉');
-                if (i === 6) {
+           } if (i === 6) {
           div.textContent = '小吉!';
           div.classList.add('小吉');
             } else {
@@ -59,9 +61,6 @@
           div.classList.add('凶');
         }
       });
-      
-  
-
       document.body.appendChild(div);
     }
   </script>
